@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <main>
+        <section>
+            <aside>
+                <div><input type="text" id="input-field"></div>
+            </aside>
+
+            <aside>
+                <button class="btn btnClear" onclick="clearInput()">C</button>
+                <input type="text" id="result">
+            </aside>
+
+            <aside>
+                <button class="btn btnNumber" onclick="displayValue('7')">7</button>
+                <button class="btn btnNumber" onclick="displayValue('8')">8</button>
+                <button class="btn btnNumber" onclick="displayValue('9')">9</button>
+                <button class="btn btnOperator" onclick="displayValue('+')">+</button>
+            </aside>
+
+            <aside>
+                <button class="btn btnNumber" onclick="displayValue('4')">4</button>
+                <button class="btn btnNumber" onclick="displayValue('5')">5</button>
+                <button class="btn btnNumber" onclick="displayValue('6')">6</button>
+                <button class="btn btnOperator" onclick="displayValue('-')">-</button>
+            </aside>
+
+            <aside>
+                <button class="btn btnNumber" onclick="displayValue('1')">1</button>
+                <button class="btn btnNumber" onclick="displayValue('2')">2</button>
+                <button class="btn btnNumber" onclick="displayValue('3')">3</button>
+                <button class="btn btnOperator" onclick="displayValue('/')">/</button>
+            </aside>
+
+            <aside>
+                <button class="btn btnNumber" onclick="displayValue('0')">0</button>
+                <button class="btn btnNumber" onclick="displayValue('.')">.</button>
+                <button class="btn btnEqual" onclick="calculateResult()">=</button>
+                <button class="btn btnOperator" onclick="displayValue('*')">*</button>
+            </aside>
+        </section>
+    </main>
+</body>
+</html>
