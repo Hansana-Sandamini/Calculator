@@ -18,12 +18,15 @@ function displayValue(value) {
             resultField.value += value; 
         }
     }
+    resultField.classList.remove('bold-and-large-text');
 }
 
 function clearInput() {
     document.getElementById('input-field').value = "";
     document.getElementById('result').value = "";
     operatorPressed = false; 
+
+    document.getElementById('result').classList.remove('bold-and-large-text');
 }
 
 function calculateResult() {
@@ -33,4 +36,5 @@ function calculateResult() {
 
     let result = eval(expression);
     resultField.value = result;
+    resultField.classList.add('bold-and-large-text');
 }

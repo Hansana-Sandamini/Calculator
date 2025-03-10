@@ -106,3 +106,159 @@ aside:nth-child(2) {
 .btnClear:hover {
   background-color: orangered;
 }
+
+#result.bold-and-large-text {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 12px;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+    width: 100px;
+    height: 60px;
+    border-radius: 7px;
+  }
+
+  #input-field {
+    font-size: 1.8rem;
+  }
+
+  #input-field,
+  #result {
+    height: 50px;
+  }
+
+  #result.bold-and-large-text {
+    font-size: 3rem;
+  }
+
+  #result {
+    width: 345px;
+    font-size: 1rem;
+  }
+
+  #input-field {
+    width: 400px;
+  }
+
+  .btnClear {
+    width: 50px;
+    height: 50px;
+  }
+
+  #result.bold-and-large-text {
+    font-size: 3rem;
+  }
+
+  aside {
+    gap: 2.5px;
+    padding-bottom: 3px;
+  }
+
+  aside:nth-child(2) {
+    padding-bottom: 6.5px;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 9px;
+  }
+
+  #input-field {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+    width: 80px;
+    height: 50px;
+    border-radius: 6px;
+  }
+
+  #input-field,
+  #result {
+    height: 40px;
+  }
+
+  #result.bold-and-large-text {
+    font-size: 2rem;
+  }
+
+  #result {
+    width: 273px;
+    font-size: 0.8rem;
+  }
+
+  #input-field {
+    width: 315px;
+  }
+
+  .btnClear {
+    width: 40px;
+    height: 40px;
+  }
+
+  aside {
+    gap: 1.8px;
+    padding-bottom: 2px;
+  }
+
+  aside:nth-child(2) {
+    padding-bottom: 5px;
+  }
+}
+
+@media (max-width: 375px) {
+  section {
+    padding: 6px;
+  }
+
+  #input-field {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  #input-field,
+  #result {
+    height: 30px;
+  }
+
+  #result.bold-and-large-text {
+    font-size: 1.7rem;
+  }
+
+  #result {
+    width: 200px;
+    font-size: 0.6rem;
+  }
+
+  #input-field {
+    width: 230px;
+  }
+
+  .btnClear {
+    width: 30px;
+    height: 30px;
+  }
+
+  aside {
+    gap: 1.2px;
+    padding-bottom: 0.8px;
+  }
+
+  aside:nth-child(2) {
+    padding-bottom: 4px;
+  }
+}
